@@ -1,8 +1,8 @@
 import "./App.css";
+import Navbar from "./Component/NavBar/Navbar";
 
-import DashBord from "./Component/DashBord";
-import Navbar from "./NavBar/Navbar";
 import SideBar from "./Component/SideBar/SideBar";
+import DashBord from "./Page/DashBord";
 
 function App() {
   return (

@@ -55,7 +55,7 @@ const TableComponent = () => {
           </tr>
         </thead>
         <tbody>
-          <tr className=" shadow rounded-3 py-4 ">
+          <tr className="shadow rounded-3">
             <th className="py-4 position-relative " scope="row">
               <span class="badge px-4 rounded-top badge-notification top-0 start-0 bg-danger position-absolute">
                 Not Seen
@@ -65,6 +65,71 @@ const TableComponent = () => {
               <span className="fw-light pt-2"> 8.00 AM</span>
             </th>
             <td className="py-4">Shaivam Bhwal</td>
+            <td className="py-4">+91987654321</td>
+            <td className="py-4">dummy@gmail.com</td>
+            <td className="py-4">website</td>
+            <td className="py-4">25 June 2021</td>
+            <td className="py-4"> New</td>
+            <td className="py-4">
+              <Dropdown>
+                <Dropdown.Toggle
+                  as={CustomToggle}
+                  id="dropdown-custom-components"
+                >
+                  Custom toggle
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu as={CustomMenu}>
+                  <Dropdown.Item eventKey="1" active>
+                    Edit
+                  </Dropdown.Item>
+                  <Dropdown.Item eventKey="2">View</Dropdown.Item>
+                  <Dropdown.Item eventKey="3">Delete</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </td>
+          </tr>
+          <tr className="shadow rounded-3">
+            <th className="py-4 position-relative " scope="row">
+              <span class="badge px-4 rounded-top badge-notification top-0 start-0 bg-danger position-absolute">
+                Not Seen
+              </span>
+              May 26, 2019
+              <br />
+              <span className="fw-light pt-2"> 8.00 AM</span>
+            </th>
+            <td className="py-4">Shaivam Bhwal</td>
+            <td className="py-4">+91987654321</td>
+            <td className="py-4">dummy@gmail.com</td>
+            <td className="py-4">website</td>
+            <td className="py-4">25 June 2021</td>
+            <td className="py-4"> New</td>
+            <td className="py-4">
+              <Dropdown>
+                <Dropdown.Toggle
+                  as={CustomToggle}
+                  id="dropdown-custom-components"
+                >
+                  Custom toggle
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu as={CustomMenu}>
+                  <Dropdown.Item eventKey="1" active>
+                    Edit
+                  </Dropdown.Item>
+                  <Dropdown.Item eventKey="2">View</Dropdown.Item>
+                  <Dropdown.Item eventKey="3">Delete</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </td>
+          </tr>
+          <tr className="shadow rounded-3">
+            <th className="py-4 position-relative " scope="row">
+              May 26, 2019
+              <br />
+              <span className="fw-light pt-2"> 8.00 AM</span>
+            </th>
+            <td className="py-4 ">Shaivam Bhwal</td>
             <td className="py-4">+91987654321</td>
             <td className="py-4">dummy@gmail.com</td>
             <td className="py-4">website</td>
